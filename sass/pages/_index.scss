@@ -1,0 +1,125 @@
+
+/* Estilo header */
+#header {
+    border-bottom: 1px solid rgb(196, 192, 192);
+  }
+  
+  .navbar-nav .nav-link {
+    color: blue;
+    font-size: 16px;
+    padding: 0 15px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .navbar-nav .nav-item:not(:last-child) .nav-link::after {
+    content: "|"; /* Line vertical entre items */
+    position: absolute;
+    right: 1px;
+    color: black;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+  }
+
+/* Estilos Body */
+
+.title h1 {
+    font-family: 'Tangerine', sans-serif;
+    font-size: 68px;
+    text-align: center;
+    padding: 10px
+}
+
+.row {
+    display: flex;
+    background-color: #fffbee; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto; 
+    max-width: 100%; 
+}
+
+.box-invitaciones h1 {
+    font-family: 'Tangerine', sans-serif; 
+    font-size: 48px;
+    text-align: left; 
+    position: relative; 
+    color: #333;
+}
+
+/*LINEA DECORATIVA */
+.box-invitaciones h1:after {
+    content: ""; 
+    display: block; 
+    width: 400px; 
+    height: 1px; 
+    background-color: rgb(196, 192, 192); 
+    margin: 10px 0; 
+}
+
+.box-invitaciones p {
+    font-size: 15px; 
+    line-height: 1.6; 
+    margin-top: 15px; 
+    color: #666; 
+}
+
+.image-container {
+    float: right; 
+    width: 200px; 
+    height: auto; 
+    margin-left: 20px; 
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.box {
+    width: 50%;
+    height: 40vh;
+    margin: 10px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px ;
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 100%; }
+
+.casamientos {    
+    background-color: #ffc6e2d2;
+}
+
+
+.cumple {
+    background-color: #cae9fd;
+}
+
+.baby {
+    background-color: #fdeaff; 
+}
+
+
+/*BOTÓN EXPLORAR*/
+.btn-primary { 
+    background-color: transparent;
+    color: #333;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #b4b4b4;
+}

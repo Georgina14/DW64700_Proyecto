@@ -1,0 +1,42 @@
+/*ESTILOS FOOTER*/
+
+#footer {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer__logo--img {
+    width: 100px;
+}
+
+.footer__links {
+    text-align: center;
+}
+
+.footer__links--ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.footer__links h2 {
+    font-size: x-small;
+    padding-bottom: 0px;
+}
+
+.footer__links p {
+    font-size: x-small;
+    padding-top: 0px;
+}
+
+.footer__social a i {
+    font-size: 30px;
+    margin-left: 10px;
+    color: #333;
+    
+}
